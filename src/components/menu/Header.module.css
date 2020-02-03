@@ -1,0 +1,22 @@
+.container {
+	display: flex;
+	justify-content: center;
+	padding: 16px;
+}
+
+.innerContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.logo {
+	width: 70px;
+	height: auto;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+	font-size: 48px;
+	margin-top: 12px;
+}

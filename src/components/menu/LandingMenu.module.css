@@ -1,0 +1,68 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menuContainer {
+  display: flex;
+  padding: 16px;
+  margin-bottom: 32px;
+}
+
+.menuButton {
+  background: none;
+  color: inherit;
+  outline: none;
+  cursor: pointer;
+
+  border: solid 0.8px rgba(0, 0, 0, 0.4);
+  border-top: 0;
+  width: 16rem;
+  font-size: 28px;
+  transition: ease-in-out 0.3s;
+  opacity: 0.8;
+}
+
+.menuButton:hover {
+  border-color: rgba(0, 0, 0, 0.7);
+  opacity: 1;
+}
+
+.menuLeftButton {
+  border-left: 0;
+}
+
+.menuCenterButton {
+  border-left: 0;
+  border-right: 0;
+}
+
+.menuRightButton {
+  border-right: 0;
+}
+
+@media only screen and (max-width: 760px) {
+  .menuButton {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 525px) {
+  .menuButton {
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .menuButton {
+    width: 300px;
+    margin: 16px;
+    border: 0;
+    border-bottom: solid 0.8px rgba(0, 0, 0, 0.4);
+  }
+
+  .menuContainer {
+    flex-direction: column;
+  }
+}

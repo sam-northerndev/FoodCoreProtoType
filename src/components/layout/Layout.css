@@ -1,0 +1,35 @@
+h1,
+h2,
+h3,
+h4 {
+  font-family: lora;
+}
+
+* {
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+}
+
+.content {
+  padding-bottom: 150px;
+}
+
+.planOne {
+  background-image: linear-gradient(to right, #11998e, #38ef7d);
+}
+
+.planTwo {
+  background-image: linear-gradient(to right, #642b73, #c6426e);
+}
+
+.planThree {
+  background-image: linear-gradient(to right, #fdc830, #f37335);
+}

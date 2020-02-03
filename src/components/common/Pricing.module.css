@@ -1,0 +1,81 @@
+.planContainer {
+  display: flex;
+}
+
+.planContainer h3 {
+  margin: 8px;
+}
+
+.planCard {
+  margin: 16px;
+  padding: 0px;
+}
+
+.planTitle {
+  text-align: center;
+  margin: 0px;
+  color: white;
+}
+
+.planTitleContainer {
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+
+  width: 100%;
+  padding: 32px;
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+}
+
+.price {
+  font-weight: 600;
+}
+
+.planDescription {
+  text-align: center;
+}
+
+.planList {
+  margin: 8px;
+  margin-top: 16px;
+  font-size: 22px;
+}
+
+.planList p {
+  text-align: center;
+}
+
+.planButton {
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+  padding: 16px;
+  outline: none;
+  border: solid 0.6px rgba(0, 0, 0, 0.4);
+  opacity: 0.2;
+
+  transition: box-shadow 0.5s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.planHoverContainer:hover .planButton {
+  opacity: 1;
+}
+
+.planButton:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+@media only screen and (max-width: 1355px) {
+  .planContainer {
+    flex-direction: column;
+  }
+  .planCard {
+    margin-top: 64px;
+  }
+}

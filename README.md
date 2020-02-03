@@ -2,7 +2,7 @@
 
 # Assignment 2 - Advanced Web Services
 
-### SiteURL: <foodcore.netlify.com>
+### SiteURL: <https://foodcore.netlify.com/>
 
 This prototype was created to provide a seamless experience, as such I opted not to include three seperate routes, instead I included all three pages accessible at one route. In future iterations there would be routing and authentication for specific pages. This was a design choice, as I wanted the pages to be connected and share data without using a site store such as redux, or make database queries at this time.
 

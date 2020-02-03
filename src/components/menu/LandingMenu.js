@@ -77,6 +77,7 @@ class LandingMenu extends React.Component {
   onPlanSelect = plan => {
     this.setState({ plan }, () => {
       this.onLoginClick()
+      window.scrollTo(0, 500)
     })
   }
 

@@ -35,7 +35,6 @@
 
 .titleInput {
   width: 75%;
-  /*font-size: 32px;*/
   padding: 16px 8px;
   outline: none;
   border: none;
@@ -77,7 +76,6 @@
   background: transparent;
   border: none;
   outline: none;
-  /*font-size: 22px;*/
 }
 
 .addItem {
@@ -93,7 +91,6 @@
   border: none;
   outline: none;
   color: white;
-  /*font-size: 22px;*/
 }
 
 @media only screen and (max-width: 450px) {

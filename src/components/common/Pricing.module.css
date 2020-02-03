@@ -44,7 +44,6 @@
 .planList {
   margin: 8px;
   margin-top: 16px;
-  /*font-size: 22px;*/
 }
 
 .planList p {
@@ -53,7 +52,6 @@
 
 .planButton {
   color: white;
-  /*font-size: 22px; */
   cursor: pointer;
   padding: 16px;
   outline: none;

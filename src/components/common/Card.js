@@ -23,7 +23,7 @@ const Card = ({ children, shadow, className }) => {
 }
 
 Card.propTypes = {
-  content: PropTypes.node.isRequired,
+  children: PropTypes.node.isRequired,
   className: PropTypes.string,
 }
 
